@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>The Page loaded<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Testing Invalid login case<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Verified Invalid login case<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>The Page loaded<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Screen Shot Taken for failed case loginTwitter<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>The Page loaded<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>The Page loaded<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Logged into Twitter<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened the given user's twitter page<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Commented on the tweet<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Chrome Browser started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Browser Session Started<====]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened Twitter.com<====]]>
+    </line>
+    <line>
+      <![CDATA[===>The Page loaded<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Logged into Twitter<===]]>
+    </line>
+    <line>
+      <![CDATA[===>Opened the given user's twitter page<===]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="191863" started-at="2020-02-05T23:46:44 SGT" finished-at="2020-02-05T23:49:56 SGT">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="77464" started-at="2020-02-05T23:46:44 SGT" finished-at="2020-02-05T23:48:02 SGT">
+      <class name="com.tweet.Twitter.LandingPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="initialize" is-config="true" duration-ms="35250" started-at="2020-02-05T23:46:45 SGT" finished-at="2020-02-05T23:47:20 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginTwitter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="loginTwitter" duration-ms="10199" started-at="2020-02-05T23:47:20 SGT" data-provider="getCredentials" finished-at="2020-02-05T23:47:30 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPwd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[===>The Page loaded<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Testing Invalid login case<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Verified Invalid login case<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTwitter -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="teardown" is-config="true" duration-ms="4982" started-at="2020-02-05T23:47:30 SGT" finished-at="2020-02-05T23:47:35 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="initialize" is-config="true" duration-ms="12525" started-at="2020-02-05T23:47:35 SGT" finished-at="2020-02-05T23:47:48 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="loginTwitter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="loginTwitter" duration-ms="12274" started-at="2020-02-05T23:47:48 SGT" data-provider="getCredentials" finished-at="2020-02-05T23:48:00 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snarayanank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sathya99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THASWIKA', ip: '192.168.86.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Sathya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ad0ce2b472f0e9ce804b2d5aa0c5e4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THASWIKA', ip: '192.168.86.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Sathya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ad0ce2b472f0e9ce804b2d5aa0c5e4c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at PageObjects.LoginPage.loginTwitter(LoginPage.java:43)
+at com.tweet.Twitter.LandingPage.loginTwitter(LandingPage.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[===>The Page loaded<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Screen Shot Taken for failed case loginTwitter<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTwitter -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.LandingPage@76707e36]" name="teardown" is-config="true" duration-ms="434" started-at="2020-02-05T23:48:01 SGT" finished-at="2020-02-05T23:48:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tweet.Twitter.LandingPage -->
+    </test> <!-- LoginTest -->
+    <test name="CreateTweet" duration-ms="27314" started-at="2020-02-05T23:48:03 SGT" finished-at="2020-02-05T23:48:31 SGT">
+      <class name="com.tweet.Twitter.CreateTweet">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.CreateTweet@2d8f65a4]" name="initialize" is-config="true" duration-ms="16056" started-at="2020-02-05T23:48:03 SGT" finished-at="2020-02-05T23:48:19 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:com.tweet.Twitter.CreateTweet@2d8f65a4]" name="createTweet" duration-ms="10280" started-at="2020-02-05T23:48:19 SGT" finished-at="2020-02-05T23:48:30 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.CreateTweet@2d8f65a4]" name="teardown" is-config="true" duration-ms="961" started-at="2020-02-05T23:48:30 SGT" finished-at="2020-02-05T23:48:31 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tweet.Twitter.CreateTweet -->
+    </test> <!-- CreateTweet -->
+    <test name="LikeTweet" duration-ms="29454" started-at="2020-02-05T23:48:31 SGT" finished-at="2020-02-05T23:49:00 SGT">
+      <class name="com.tweet.Twitter.LikeTweet">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.LikeTweet@704a52ec]" name="initialize" is-config="true" duration-ms="12069" started-at="2020-02-05T23:48:31 SGT" finished-at="2020-02-05T23:48:43 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="likeTweet()[pri:0, instance:com.tweet.Twitter.LikeTweet@704a52ec]" name="likeTweet" duration-ms="16344" started-at="2020-02-05T23:48:43 SGT" finished-at="2020-02-05T23:48:59 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>The Page loaded<===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- likeTweet -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.LikeTweet@704a52ec]" name="teardown" is-config="true" duration-ms="1037" started-at="2020-02-05T23:48:59 SGT" finished-at="2020-02-05T23:49:00 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tweet.Twitter.LikeTweet -->
+    </test> <!-- LikeTweet -->
+    <test name="ReplyTweet" duration-ms="25992" started-at="2020-02-05T23:49:01 SGT" finished-at="2020-02-05T23:49:27 SGT">
+      <class name="com.tweet.Twitter.ReplyTweet">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.ReplyTweet@458c1321]" name="initialize" is-config="true" duration-ms="11644" started-at="2020-02-05T23:49:01 SGT" finished-at="2020-02-05T23:49:12 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="replyTweet()[pri:0, instance:com.tweet.Twitter.ReplyTweet@458c1321]" name="replyTweet" duration-ms="14132" started-at="2020-02-05T23:49:12 SGT" finished-at="2020-02-05T23:49:26 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>The Page loaded<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Logged into Twitter<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened the given user's twitter page<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Commented on the tweet<===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- replyTweet -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.ReplyTweet@458c1321]" name="teardown" is-config="true" duration-ms="213" started-at="2020-02-05T23:49:26 SGT" finished-at="2020-02-05T23:49:27 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tweet.Twitter.ReplyTweet -->
+    </test> <!-- ReplyTweet -->
+    <test name="DeleteTweet" duration-ms="29577" started-at="2020-02-05T23:49:27 SGT" finished-at="2020-02-05T23:49:56 SGT">
+      <class name="com.tweet.Twitter.DeleteTweet">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tweet.Twitter.DeleteTweet@2bbf4b8b]" name="initialize" is-config="true" duration-ms="12768" started-at="2020-02-05T23:49:27 SGT" finished-at="2020-02-05T23:49:39 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>Chrome Browser started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Browser Session Started<====]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened Twitter.com<====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:com.tweet.Twitter.DeleteTweet@2bbf4b8b]" name="deleteTweet" duration-ms="12453" started-at="2020-02-05T23:49:39 SGT" finished-at="2020-02-05T23:49:52 SGT">
+          <reporter-output>
+            <line>
+              <![CDATA[===>The Page loaded<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Logged into Twitter<===]]>
+            </line>
+            <line>
+              <![CDATA[===>Opened the given user's twitter page<===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tweet.Twitter.DeleteTweet@2bbf4b8b]" name="teardown" is-config="true" duration-ms="4352" started-at="2020-02-05T23:49:52 SGT" finished-at="2020-02-05T23:49:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tweet.Twitter.DeleteTweet -->
+    </test> <!-- DeleteTweet -->
+  </suite> <!-- Suite -->
+</testng-results>

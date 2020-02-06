@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.tweet.Twitter.listeners"/>
+    <listener class-name="Resources.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.tweet.Twitter.LandingPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="loginTwitter" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.tweet.Twitter.LandingPage -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

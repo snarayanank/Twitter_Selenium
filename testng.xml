@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+	<listener class-name="com.tweet.Twitter.listeners"/>
+    <listener class-name="Resources.ExtentReport"/>
+ </listeners>
+  <test name="LoginTest">
+    <classes>
+      <class name="com.tweet.Twitter.LandingPage"/>
+    </classes>
+    </test>
+    <test name ="CreateTweet">
+    <classes>
+      <class name="com.tweet.Twitter.CreateTweet"/>
+    </classes>
+    </test>
+       <test name ="LikeTweet">
+    <classes>
+	  <class name="com.tweet.Twitter.LikeTweet"/>
+	      </classes>
+    </test>
+	     <test name ="ReplyTweet">
+    <classes>
+      <class name="com.tweet.Twitter.ReplyTweet"/>
+          </classes>
+    </test>
+        <test name ="DeleteTweet">
+    <classes>
+      <class name="com.tweet.Twitter.DeleteTweet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
