@@ -33,7 +33,7 @@ public class DeleteTweet extends Base{
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.visibilityOf(loginPage.get_LoginBtn()));
 		wait.until(ExpectedConditions.titleContains("Twitter"));
-		loginPage.loginTwitter("snarayanank", "Sathya99");
+		loginPage.loginTwitter(prop.getProperty("validUser"), prop.getProperty("validPwd"));
 		HomePage homePage = new HomePage(driver);
 		wait.until(ExpectedConditions.visibilityOf(homePage.getTweetBox()));
 		Reporter.log("===>Logged into Twitter<===", true);
