@@ -63,8 +63,8 @@ public class LandingPage extends Base{
 		credentials[0][1]="TestPwd";
 		credentials[0][2]="Invalid";
 		//2nd Credential - Valid
-		credentials[1][0]="snarayanank";
-		credentials[1][1]="Sathya99";
+		credentials[1][0]=prop.getProperty("validUser");
+		credentials[1][1]=prop.getProperty("validPwd");
 		credentials[1][2]="Valid";
 		
 		return credentials;
